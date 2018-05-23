@@ -1,0 +1,17 @@
+<button (click)="addPerson()">add</button>
+<table >
+  <thead>
+      <tr>
+          <th>Fname</th>
+          <th>Mname</th>
+          <th>Lname</th>
+      </tr>
+  </thead>
+  <tbody *ngFor="let td of tr">
+      <tr >
+          <td>{{td.fname}}</td>
+          <td>{{td.mname}}</td>
+          <td>{{td.lname}}</td>
+      </tr>
+  </tbody>
+</table>
